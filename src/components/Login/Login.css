@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.login-side-sidepage {
+  display: block;
+  width: 50vw;
+  background-color: blue;
+  height: 100vh;
+}
+.login {
+  width: 50vw;
+  height: 100vh;
+}
+
+/* Responsive layout */
+@media (max-width: 677px) {
+  .login-side-sidepage {
+    display: none;
+  }
+}
